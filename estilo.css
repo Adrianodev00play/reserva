@@ -27,14 +27,24 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 50px;
 }
 
 .selecao{
     width: 50%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     background-color: green;
+    align-items: center;
+    padding-top: 50px;
 }
-h1{
+h2{
     font-size: 50px;
+}
+.botao{
+    width: 40%;
+    height: 10%;
+    background-color: yellow;
+    border-radius: 20px;
 }
